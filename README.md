@@ -15,7 +15,7 @@ Additionally, the example demonstrates how to:
 Start it in one shell:
 
 ```sh
-go run github.com/0x545/goproxy-httpdump
+go run github.com/0x5459/goproxy-httpdump@latest -- -l41235
 ```
 
 Fetch goproxy homepage in another:

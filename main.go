@@ -256,6 +256,7 @@ func main() {
 			ctx.UserData, resp, err = tr.DetailedRoundTrip(req)
 			return
 		})
+		fmt.Println("Request:", req.URL)
 		logger.LogReq(req, ctx)
 		return req, nil
 	})
